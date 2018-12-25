@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>集合4_交并补</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/集合4_交并补/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/集合4_交并补/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Bracket) -->
+      <div id="u151" class="ax_default ellipse ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u151_img" class="img " src="images/集合1_集合概念/u46.svg"/>
+        <div id="u151_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u152" class="ax_default paragraph">
+        <div id="u152_div" class=""></div>
+        <div id="u152_text" class="text ">
+          <p><span style="font-family:'STSongti-SC-Regular', 'Songti SC';font-style:normal;text-decoration:none;">例如</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">: </span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">A</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">={</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">| </span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">≤2 }, </span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">B</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">={</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">| </span><span style="font-family:'Times-Roman', 'Times';font-style:normal;text-decoration:none;">−</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">1≤</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x </span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u153" class="ax_default heading_2">
+        <div id="u153_div" class=""></div>
+        <div id="u153_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">一</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;text-decoration:none;">. </span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">交集</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u154" class="ax_default paragraph">
+        <div id="u154_div" class=""></div>
+        <div id="u154_text" class="text ">
+          <p><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">A</span><span style="font-family:'Symbol';font-style:normal;text-decoration:none;">∩</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">B = {</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">| </span><span style="font-family:'Times-Roman', 'Times';font-style:normal;text-decoration:none;">−</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">1≤</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">≤2 }</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u155" class="ax_default heading_2">
+        <div id="u155_div" class=""></div>
+        <div id="u155_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">二</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;text-decoration:none;">. </span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">并集</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u156" class="ax_default paragraph">
+        <div id="u156_div" class=""></div>
+        <div id="u156_text" class="text ">
+          <p><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">A</span><span style="font-family:'Symbol';font-style:normal;text-decoration:none;">∪</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">B = {</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">| </span><span style="font-family:'Times-Roman', 'Times';font-style:normal;text-decoration:none;">−</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">1≤</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-style:italic;text-decoration:none;">x</span><span style="font-family:'Euclid';font-style:normal;text-decoration:none;">≤2 }</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u157" class="ax_default heading_2">
+        <div id="u157_div" class=""></div>
+        <div id="u157_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">三</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;text-decoration:none;">. </span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;text-decoration:none;">补集</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u158" class="ax_default paragraph">
+        <div id="u158_div" class=""></div>
+        <div id="u158_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Euclid-BoldItalic', 'Euclid Bold Italic', 'Euclid';font-weight:700;font-style:italic;font-size:16px;text-decoration:none;">C</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-weight:400;font-style:italic;text-decoration:none;vertical-align:sub;">R</span><span style="font-family:'Euclid';font-weight:400;font-style:normal;font-size:16px;text-decoration:none;">B = {</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-weight:400;font-style:italic;font-size:16px;text-decoration:none;">x</span><span style="font-family:'Euclid';font-weight:400;font-style:normal;font-size:16px;text-decoration:none;">| </span><span style="font-family:'Times-Roman', 'Times';font-weight:400;font-style:normal;font-size:16px;text-decoration:none;">−</span><span style="font-family:'Euclid';font-weight:400;font-style:normal;font-size:16px;text-decoration:none;">1≤</span><span style="font-family:'Euclid-Italic', 'Euclid Italic', 'Euclid';font-weight:400;font-style:italic;font-size:16px;text-decoration:none;">x</span><span style="font-family:'Euclid';font-weight:400;font-style:normal;font-size:16px;text-decoration:none;">≤2 }</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u159" class="ax_default heading_2">
+        <div id="u159_div" class=""></div>
+        <div id="u159_text" class="text ">
+          <p><span style="text-decoration:none;">四. Venn图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u160" class="ax_default ellipse">
+        <img id="u160_img" class="img " src="images/集合4_交并补/u160.svg"/>
+        <div id="u160_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u161" class="ax_default ellipse">
+        <img id="u161_img" class="img " src="images/集合4_交并补/u161.svg"/>
+        <div id="u161_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u162" class="ax_default ellipse">
+        <img id="u162_img" class="img " src="images/集合4_交并补/u162.svg"/>
+        <div id="u162_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u163" class="ax_default ellipse">
+        <img id="u163_img" class="img " src="images/集合4_交并补/u161.svg"/>
+        <div id="u163_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u164" class="ax_default box_1">
+        <img id="u164_img" class="img " src="images/集合4_交并补/u164.svg"/>
+        <div id="u164_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Bar----集合4课(page)横向) -->
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u166" class="ax_default">
+        <div id="u166_state0" class="panel_state" data-label="State1" style="">
+          <div id="u166_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (背景条(横)) -->
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u168" class="ax_default box_3">
+              <img id="u168_img" class="img " src="images/集合1_集合概念/u58.svg"/>
+              <div id="u168_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (课程编号+课程标题(横)) -->
+
+            <!-- 课程标题 (Dynamic Panel) -->
+            <div id="u170" class="ax_default" data-label="课程标题">
+              <div id="u170_state0" class="panel_state" data-label="State1" style="">
+                <div id="u170_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u171" class="ax_default box_3">
+                    <div id="u171_div" class=""></div>
+                    <div id="u171_text" class="text ">
+                      <p><span style="text-decoration:none;">第1课: 集合概念</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u170_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+                <div id="u170_state1_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u172" class="ax_default box_3">
+                    <div id="u172_div" class=""></div>
+                    <div id="u172_text" class="text ">
+                      <p><span style="text-decoration:none;">第2课: 一维集合</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u170_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+                <div id="u170_state2_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u173" class="ax_default box_3">
+                    <div id="u173_div" class=""></div>
+                    <div id="u173_text" class="text ">
+                      <p><span style="text-decoration:none;">第3课: 二维集合</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u170_state3" class="panel_state" data-label="State4" style="visibility: hidden;">
+                <div id="u170_state3_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u174" class="ax_default box_3">
+                    <div id="u174_div" class=""></div>
+                    <div id="u174_text" class="text ">
+                      <p><span style="text-decoration:none;">第4课: 交并补</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数字编号 (Group) -->
+            <div id="u175" class="ax_default" data-label="数字编号" data-left="100" data-top="26" data-width="176" data-height="44">
+
+              <!-- 444 (Group) -->
+              <div id="u176" class="ax_default" data-label="444" selectiongroup="u169number" data-left="232" data-top="26" data-width="44" data-height="44">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u177" class="ax_default box_1">
+                  <div id="u177_div" class=""></div>
+                  <div id="u177_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u178" class="ax_default ellipse">
+                  <img id="u178_img" class="img " src="images/集合1_集合概念/u68.svg"/>
+                  <div id="u178_text" class="text ">
+                    <p><span style="text-decoration:none;">4</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 333 (Group) -->
+              <div id="u179" class="ax_default" data-label="333" selectiongroup="u169number" data-left="188" data-top="26" data-width="44" data-height="44">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u180" class="ax_default box_1">
+                  <div id="u180_div" class=""></div>
+                  <div id="u180_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u181" class="ax_default ellipse">
+                  <img id="u181_img" class="img " src="images/集合1_集合概念/u68.svg"/>
+                  <div id="u181_text" class="text ">
+                    <p><span style="text-decoration:none;">3</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 222 (Group) -->
+              <div id="u182" class="ax_default" data-label="222" selectiongroup="u169number" data-left="144" data-top="26" data-width="44" data-height="44">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u183" class="ax_default box_1">
+                  <div id="u183_div" class=""></div>
+                  <div id="u183_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u184" class="ax_default ellipse">
+                  <img id="u184_img" class="img " src="images/集合1_集合概念/u68.svg"/>
+                  <div id="u184_text" class="text ">
+                    <p><span style="text-decoration:none;">2</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 111 (Group) -->
+              <div id="u185" class="ax_default" data-label="111" selectiongroup="u169number" data-left="100" data-top="26" data-width="44" data-height="44">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u186" class="ax_default box_1">
+                  <div id="u186_div" class=""></div>
+                  <div id="u186_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u187" class="ax_default ellipse">
+                  <img id="u187_img" class="img " src="images/集合1_集合概念/u68.svg"/>
+                  <div id="u187_text" class="text ">
+                    <p><span style="text-decoration:none;">1</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (返回-----上一页) -->
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u189" class="ax_default button">
+              <div id="u189_div" class=""></div>
+              <div id="u189_text" class="text ">
+                <p><span style="text-decoration:none;">&nbsp; &lt;</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (返回-----所有课程) -->
+
+            <!-- Unnamed (Shape) -->
+            <div id="u191" class="ax_default icon">
+              <img id="u191_img" class="img " src="images/集合1_集合概念/u81.svg"/>
+              <div id="u191_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u192" class="ax_default button">
+              <div id="u192_div" class=""></div>
+              <div id="u192_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
