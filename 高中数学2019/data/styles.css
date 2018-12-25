@@ -75,7 +75,7 @@
   font-weight:400;
   font-style:normal;
   font-size:14px;
-  text-align:left;
+  text-align:center;
 }
 .paragraph {
   font-family:'Euclid';
@@ -86,6 +86,8 @@
   text-align:left;
 }
 .line {
+}
+.table_cell {
 }
 .form_hint {
   color:#999999;
